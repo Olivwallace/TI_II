@@ -1,0 +1,62 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo do formulário */
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  align-self: flex-start; /* adicionado */
+}
+
+form label {
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+form input[type="text"] {
+  width: 150px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+  margin-left: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+/* Estilo da lista */
+#lista-produtos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+#lista-produtos li {
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+}

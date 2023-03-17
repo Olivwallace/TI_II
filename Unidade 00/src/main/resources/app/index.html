@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CRUD de Produtos</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>CRUD de Produtos</h1>
+
+    <form id="form-produto" >
+        <label for="id">ID:</label>
+        <input autocomplete="off" type="text" id="id" />
+
+        <label for="nome">Nome:</label>
+        <input autocomplete="off" type="text" id="nome" />
+
+        <label for="departamento">Descrição:</label>
+        <input autocomplete="off" type="text" id="departamento" />
+
+        <label for="marca">Marca:</label>
+        <input autocomplete="off" type="text" id="marca" />
+
+        <label for="preco">Preço:</label>
+        <input autocomplete="off" type="text" id="preco" />
+
+        <button id="btnlista" type="submit">Criar</button>
+    </form>
+
+    <ul id="lista-produtos"></ul>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
